@@ -7,4 +7,4 @@ i/lci_test.go
 
 s/lcs.go
 s/lcs_test.go
-  Same interpreter in Go type assertions
+  Same interpreter in using Go type assertions
