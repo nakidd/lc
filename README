@@ -1,0 +1,10 @@
+lc.sml
+  SML implemenation of lambda calc interpreter
+
+i/lci.go
+i/lci_test.go
+  Same interpreter in Go using interfaces
+
+s/lcs.go
+s/lcs_test.go
+  Same interpreter in Go type assertions
