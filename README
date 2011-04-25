@@ -1,10 +1,16 @@
 lc.sml
   SML implemenation of lambda calc interpreter
 
+--- (i)nterface
 i/lci.go
 i/lci_test.go
   Same interpreter in Go using interfaces
 
+--- (s)witch
 s/lcs.go
 s/lcs_test.go
   Same interpreter in Go using type assertions
+
+--- (m)atch
+m/lcm.go
+  Same interpreter as s/lcs.go using hypothetical pattern matching
