@@ -212,9 +212,7 @@ func Substitute(y T, x string, e T) T {
 //----------------------
 func Eval(t T) T {
 	switch self := t.(type) {
-	case Var:
-		return self
-	case Lam:
+	case Var, Lam:
 		return self
 	case App:
 		lhs := Eval(self.Closure)

@@ -195,8 +195,7 @@ func Substitute(y T, x string, e T) T {
 //----------------------
 func Eval(t T) T {
 	match t {
-	case Var{_}:
-	case Lam{_,_}:
+	case Var{_}, Lam{_,_}:
 		return t
 	case App{t1, t2}:
 		match lhs := Eval(t1) {
