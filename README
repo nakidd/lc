@@ -1,5 +1,5 @@
 lc.sml
-  SML implemenation of lambda calc interpreter
+  SML implemenation of lambda calculus interpreter
 
 --- (i)nterface
 i/lci.go
